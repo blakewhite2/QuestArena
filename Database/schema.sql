@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS Players (
     playerName TEXT PRIMARY KEY,
     user TEXT,
     inventory TEXT,
+    rank INTEGER DEFAULT 0,
     defense INTEGER DEFAULT 1,
     attack INTEGER DEFAULT 1,
     speed INTEGER DEFAULT 1,
